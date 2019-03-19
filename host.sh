@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudoedit /etc/dhcp/dhclient-exit-hooks.d/hostname
 
 if [ "$interface" != "ens33"]
 then
